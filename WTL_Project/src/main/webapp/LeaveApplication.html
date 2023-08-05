@@ -1,0 +1,136 @@
+<!-- <!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Leave Application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <H1>Leave Application for Hostel</H1>
+
+    <form action="LeaveApplication" method="post">
+        <fieldset>
+            <legend>Application</legend>
+
+
+            <br>
+            <label for="address">Address : </label>
+            <input type="text" name="address">
+            <br>
+            <label for="contact">Contact No. :</label>
+            <input type="text" name="contact">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Info</legend>
+            <label for="exit date">Exit Date : </label>
+            <input type="datetime-local" name="exitDate">
+            <br>
+
+            <label for="in date">In Date : </label>
+            <input type="datetime-local" name="inDate">
+            <br>
+
+            <label for="roomno">Room No. : </label>
+            <input type="text" name="roomno">
+        </fieldset>
+        <input type="submit" value="submit">
+        <input type="clear" value="clear">
+    </form>
+</body>
+
+</html> --!>
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="leaveform.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <p>PICT Hostel</p>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="LeaveApplication.html">Forms</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Log Out</a></li>
+                
+                <!-- <li><a href="aftersignin.html">Sign-up/Sign-in</a></li> -->
+
+            </ul>
+           
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            
+        </nav>
+       <section>
+                <div class="form-box">
+                    <div class="form-value">
+                        <form action="LeaveApplication" method="post">
+                            <h2>Leave Form</h2>
+                            
+
+                            
+
+                            <div class="inputbox">
+                                <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+                                <input type="address" name="address" required>
+                                <label for="">Address</label>
+                            </div>
+                            <div class="inputbox">
+                                <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+                                <input type="contact" name="contact" required>
+                                <label for="">Contact No.</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <!-- <ion-icon name="mail-outline"></ion-icon> -->
+                                <input type="datetime-local" name="exitDate" required>
+                                <label for="">Exit Date</label>
+                            </div>
+
+
+                            <div class="inputbox">
+                                <!-- <ion-icon name="mail-outline"></ion-icon> -->
+                                <input type="datetime-local" name="inDate" required>
+                                <label for="">In Date</label>
+                            </div>
+
+                            <div class="inputbox">
+                                <!-- <ion-icon name="mail-outline"></ion-icon> -->
+                                <input type="text" name="roomno" required>
+                                <label for="">Room No.</label>
+                            </div>
+                            
+                            
+                            <button>Submit</button>
+                            <!-- <div class="Sign-Up">
+                                <p style="text-align: center;">Already an user? <a href="aftersignin.html">Sign-In</a></p>
+                            </div> -->
+                        </form>
+                    </div>
+                </div>
+            </section>
+        <script src="" async defer></script>
+    </body>
+</html>
+
