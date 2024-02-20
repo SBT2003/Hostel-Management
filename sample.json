@@ -1,0 +1,179 @@
+{
+    "tenantfeatures": [
+        {
+            "Name": "event_management_audit_feature",
+            "Status": true,
+            "Solution": "event_management_audit_feature",
+            "id": 1,
+            "Tenant": ""
+        },
+        {
+            "Name": "lookup-preview",
+            "Status": true,
+            "Solution": "lookup-preview",
+            "id": 2,
+            "Tenant": ""
+        },
+        {
+            "Name": "incident_creation",
+            "Status": true,
+            "Tenant": "1220296999",
+            "Solution": "incident_creation",
+            "id": 19
+        },
+        {
+            "Name": "lookup_node_details",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "lookup_node_details",
+            "id": 28
+        },
+        {
+            "Name": "import-export-policy",
+            "Status": true,
+            "Tenant": "1220296999",
+            "Solution": "import-export-policy",
+            "id": 36
+        },
+        {
+            "Name": "import-export-policy",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "import-export-policy",
+            "id": 37
+        },
+        {
+            "Name": "import-export-policy",
+            "Status": true,
+            "Tenant": "1312811417",
+            "Solution": "import-export-policy",
+            "id": 38
+        },
+        {
+            "Name": "feature-timeframe",
+            "Status": true,
+            "Tenant": "1312811417",
+            "Solution": "feature-timeframe",
+            "id": 44
+        },
+        {
+            "Name": "event_filtering",
+            "Status": true,
+            "Tenant": "1220296999",
+            "Solution": "event_filtering",
+            "id": 48
+        },
+        {
+            "Name": "event_filtering",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "event_filtering",
+            "id": 49
+        },
+        {
+            "Name": "event_topology_lookup_disabled",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "event_topology_lookup_disabled",
+            "id": 51
+        },
+        {
+            "Name": "adv_lookup_cache_disabled",
+            "Status": false,
+            "Tenant": "1938340890",
+            "Solution": "adv_lookup_cache_disabled",
+            "id": 50
+        },
+        {
+            "Name": "tmf_alarm",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "tmf_alarm",
+            "id": 58
+        },
+        {
+            "Name": "feature-timeframe",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "feature-timeframe",
+            "id": 59
+        },
+        {
+            "Name": "bo-ems-api",
+            "Status": false,
+            "Tenant": "1220296999",
+            "Solution": "bo-ems-api",
+            "id": 77
+        },
+        {
+            "Name": "bo-tsws-api-enabled",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "bo-tsws-api-enabled",
+            "id": 78
+        },
+        {
+            "Name": "skip_dedup_policy_max_events_processing_check",
+            "Status": false,
+            "Tenant": "1938340890",
+            "Solution": "skip_dedup_policy_max_events_processing_check",
+            "id": 83
+        },
+        {
+            "Name": "using-ui-service-api",
+            "Status": false,
+            "Tenant": "1938340890",
+            "Solution": "using-ui-service-api",
+            "id": 87
+        },
+        {
+            "Name": "show_closed_events",
+            "Status": false,
+            "Tenant": "1938340890",
+            "Solution": "show_closed_events",
+            "id": 88
+        },
+        {
+            "Name": "circuit_breaker_check_enabled",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "circuit_breaker_check_enabled",
+            "id": 91
+        },
+        {
+            "Name": "circuit_breaker_check_enabled",
+            "Status": true,
+            "Tenant": "1220296999",
+            "Solution": "circuit_breaker_check_enabled",
+            "id": 92
+        },
+        {
+            "Name": "policy-execution-order-view",
+            "Status": true,
+            "Tenant": "1938340890",
+            "Solution": "policy-execution-order-view",
+            "id": 93
+        },
+        {
+            "Name": "policy-execution-order-view",
+            "Status": true,
+            "Tenant": "1220296999",
+            "Solution": "policy-execution-order-view",
+            "id": 94
+        },
+        {
+            "Name": "event_filtering",
+            "Status": true,
+            "Tenant": "1312811417",
+            "Solution": "event_filtering",
+            "id": 95
+        },
+        {
+            "Name": "tenant_based_pruning_support_enabled",
+            "Status": true,
+            "Tenant": "1220296999",
+            "Solution": "tenant_based_pruning_support_enabled",
+            "id": 97
+        }
+    ]
+}
